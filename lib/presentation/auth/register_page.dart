@@ -94,7 +94,7 @@ class _RegisterPageState extends State<RegisterPage> {
           const SpaceHeight(24.0),
           BlocConsumer<RegisterBloc, RegisterState>(
             listener: (context, state) {
-              // TODO: implement listener
+           
               state.maybeWhen(
                   orElse: () {},
                   success: (data) {
